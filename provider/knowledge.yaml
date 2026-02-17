@@ -5,10 +5,12 @@ identity:
     en_US: knowledge
     ja_JP: knowledge
     zh_Hans: knowledge
+    ru_RU: знания
   description:
     en_US: Add the content produced by dify's workflow to its knowledge base
     ja_JP: Difyのワークフローで生成されたコンテンツをナレッジベースへ追加します
     zh_Hans: 将dify的工作流生成的内容直接添加至其知识库
+    ru_RU: Добавить содержимое, произведённое workflow Dify, в базу знаний
   icon: icon.svg
 tools:
   - tools/knowledge.yaml
@@ -21,14 +23,17 @@ credentials_for_provider:
       en_US: For example `https://api.dify.ai/v1`
       ja_JP: 例 `https://api.dify.ai/v1`
       zh_Hans: 例如 `https://api.dify.ai/v1`
+      ru_RU: Например `https://api.dify.ai/v1`
     label:
       en_US: API URI
       ja_JP: API URI
       zh_Hans: API 服务器地址
+      ru_RU: URI API
     placeholder:
       en_US: Please enter the API URI
       ja_JP: API URI を入力してください
       zh_Hans: 请输入API URI
+      ru_RU: Введите URI API
     default: https://api.dify.ai/v1
     required: true
     type: text-input
@@ -37,9 +42,11 @@ credentials_for_provider:
       en_US: API Secret
       ja_JP: APIシークレット
       zh_Hans: API 密钥
+      ru_RU: Секретный ключ API
     placeholder:
       en_US: Please enter the API secret key for updating the knowledge base
       ja_JP: ナレッジベース更新用の API シークレットキーを入力してください
       zh_Hans: 请输入用于更新知识库的 API 密钥
+      ru_RU: Введите секретный ключ API для обновления базы знаний
     required: true
     type: secret-input
